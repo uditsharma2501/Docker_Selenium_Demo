@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Login Function Test Suite">
+	<parameter name="Browser" value="chrome"/>
+	
+	<test name="Login Function Test">
+		<classes>
+			<class name="maven_demo.LoginTest"/>		
+		</classes>	
+	</test>
+
+</suite>
